@@ -25,7 +25,7 @@ public class UserController {
     @RequestMapping(value = "/user/add",method = RequestMethod.POST)
     public void addUser()
     {
-        for (int i = 1; i <=3; i++) {
+        for (int i = 1; i <=5; i++) {
             User user = new User();
 
             user.setUsername("zzyy"+i);
